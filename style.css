@@ -3,3 +3,61 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+#featured-property { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  size: 10px;
+}
+
+nav {
+  color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.Zeller {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: center;
+}
+
+/*
+section > p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: center;
+}
+*/
+
+figcaption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: center;
+}
+
+#details ~ div {
+  float: left;
+}
+
+#details {
+  background: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
